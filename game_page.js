@@ -65,7 +65,7 @@ function check(){
         else {
             player2_score = player2_score + 1;
             console.log(player2_score)
-            document.getElementById("player2_score").innerHtml = player2_score;
+            document.getElementById("player2_score").innerHTML = player2_score;
         }
     }
     
